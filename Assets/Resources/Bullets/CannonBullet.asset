@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9958b6192f783ee4593bb2e845d9c101, type: 3}
+  m_Name: CannonBullet
+  m_EditorClassIdentifier: 
+  Id: Bullet
+  bulletPrefab: {fileID: 4553809952194316345, guid: 773eec1ac001cfe4cb7556de8a545305,
+    type: 3}
+  destroyEffect: {fileID: 8491217123995748933, guid: ffa37a45d0c80da47afe372d72f0f87a,
+    type: 3}
+  damage: 20
+  bulletSpeed: 20
+  maxDistance: 25
+  autoGuidance: 0
+  guidanceManevr: 4
